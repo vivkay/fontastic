@@ -38,6 +38,14 @@ body {
     animation: float 12s ease-in-out alternate infinite;
 }
 
+.icon-alice:hover {
+  color: lightblue;
+}
+
+.icon-alice:active {
+  color: aqua;
+}
+
 
 @-webkit-keyframes float {
     0% {
@@ -75,9 +83,7 @@ body {
     }
 }
 
-.icon-alice:hover {
-  color: lightblue;
-}
+
 
 .icon-rabbit {
   font-size: 5em;
@@ -85,11 +91,15 @@ body {
   top: 10%;
   left: 10%;
   -webkit-animation: spin 8s ease-in-out alternate infinite;
-    animation: spin 8s ease-in-out alternate infinite;
+  animation: spin 8s ease-in-out alternate infinite;
 }
 
 .icon-rabbit:hover{
   color: orange;
+}
+
+.icon-rabbit:active{
+  color: yellow;
 }
 
 .icon-teapot{
@@ -98,17 +108,25 @@ body {
   top: 45%;
   right: 5%;
   -webkit-animation: spin 12s ease-in-out alternate infinite;
-    animation: spin 12s ease-in-out alternate infinite;
+  animation: spin 12s ease-in-out alternate infinite;
 }
 
 .icon-teapot:hover{
   color: yellow;
 }
 
+.icon-teapot:active{
+  color: blue;
+}
 
 .title {
-  font-size: 2em;
+  font-size: 2.5em;
   margin: 0;
+}
+
+.subtitle {
+  font-size: 1.25em;
+  color: grey;
 }
 
 p {
@@ -122,4 +140,50 @@ i {
 .white {
   color: white;
 }
+
+.icon-apple {
+  font-size: 3em;
+  position: absolute;
+  top: 60%;
+  left: 15%;
+  -webkit-animation: float 6s ease-in-out alternate infinite;
+  animation: float 6s ease-in-out alternate infinite;
+}
+
+.icon-apple:hover {
+  color: red;
+}
+
+.icon-apple:active {
+  color: orange;
+}
+
+.btn {
+  background-color: #ccc;
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+  padding: .5em 1em;
+  border-radius: 5px;
+  display: inline-block;
+  margin: .5em;
+}
+
+.btn:hover,
+.btn:active,
+.btn:focus {
+  background-color: #aaa;
+}
+
+.btn i {
+  vertical-align: baseline;
+  padding-right: .5em;
+}
+
+.container {
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px;
+}
+
 
