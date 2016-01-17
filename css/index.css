@@ -21,28 +21,6 @@ body {
   font-family: 'Patrick Hand SC', cursive;;
 }
 
-.btn {
-  background-color: #ccc;
-  color: black;
-  font-weight: bold;
-  text-decoration: none;
-  padding: .5em 1em;
-  border-radius: 5px;
-  display: inline-block;
-  margin: .5em;
-}
-
-.btn:hover,
-.btn:active,
-.btn:focus {
-  background-color: #aaa;
-}
-
-.btn i {
-  vertical-align: baseline;
-  padding-right: .5em;
-}
-
 .background {
   background-color: black;
   margin: 0;
@@ -54,13 +32,10 @@ body {
 }
 
 .icon-alice {
-  text-align: center;
-  font-size: 22em;
+  font-size: 20em;
 }
 
-.white {
-  color: white;
-}
+
 
 .title {
   font-size: 4em;
@@ -69,5 +44,13 @@ body {
 
 p {
   margin-top: 0;
+}
+
+i {
+  color: white;
+}
+
+.white {
+  color: white;
 }
 
