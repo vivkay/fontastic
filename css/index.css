@@ -29,7 +29,7 @@ body {
 
 .center-container {
   text-align: center;
-  margin-top: 5%;
+  margin: 5% 0;
 }
 
 .icon-alice {
@@ -163,7 +163,7 @@ i {
   color: black;
   font-weight: bold;
   text-decoration: none;
-  padding: .5em 1em;
+  padding: .25em 4em 0 4em;
   border-radius: 5px;
   display: inline-block;
   margin: .5em;
@@ -179,11 +179,4 @@ i {
   vertical-align: baseline;
   padding-right: .5em;
 }
-
-.container {
-  margin: 0 auto;
-  text-align: center;
-  padding: 20px;
-}
-
 
